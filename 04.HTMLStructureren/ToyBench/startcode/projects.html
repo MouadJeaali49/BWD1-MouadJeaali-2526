@@ -26,26 +26,28 @@
    </header>
    <main>
       <section>
-         <h3><span class="material-symbols-outlined">filter_list</span>FILTERS</h3>
-         <p>
-      <label for="category"></label>
-         <select id="category">
-            <option value="-1">category</option>
-            <option value="0">dolls</option>
-            <option value="1">cars</option>
-            <option value="2">games</option>
-         </select>
-         
-            year:
-            <label><input type="checkbox" value="a">50's</label>
-            <label><input type="checkbox" value="b">60's</label>
-            state:
-            <label><input type="radio" name="group1" value="a">50's</label>
-            <label><input type="radio" name="group1" value="b">60's</label>
-            <label><input type="radio" name="group1" value="b">60's</label>
-            <button type="reset"><span class="material-symbols-outlined"></span>clear </button>
-            <button type="submit">apply</button>
-         </p>
+         <form>
+            <h3><span class="material-symbols-outlined">filter_list</span>FILTERS</h3>
+            <p>
+               <label for="category"></label>
+               <select id="category">
+                  <option>category</option>
+                  <option>dolls</option>
+                  <option>cars</option>
+                  <option>games</option>
+               </select>
+
+               year:
+               <label><input type="checkbox" value="a">50's</label>
+               <label><input type="checkbox" value="b">60's</label>
+               state:
+               <label><input type="radio" name="group1" value="a">todo</label>
+               <label><input type="radio" name="group1" value="b">doing</label>
+               <label><input type="radio" name="group1" value="b">done</label>
+               <button type="reset"><span class="material-symbols-outlined"></span>clear </button>
+               <button type="submit">apply</button>
+            </p>
+         </form>
       </section>
 
       <h2>Projects</h2>

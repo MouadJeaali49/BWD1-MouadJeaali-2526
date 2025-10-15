@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home | Ol' Toy Bench</title>
+    <title>Contact | Ol' Toy Bench</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- vendor styles -->
@@ -29,27 +29,42 @@
         <h2>
             CONTACT US
         </h2>
-        <p>
-            <label for="fname">Name *</label>
-        </p>
-        <input type="text" id="fname" placeholder="e.g. John Doe">
+        <form>
+            <div>
+                <label for="fname">Name *</label>
+            </div>
+            <input type="text" id="fname" placeholder="e.g. John Doe">
 
-        <p>
-            <label for="email">Email *</label>
-        </p>
-        <input type="email" id="email" placeholder="e.g. johndoe@sky.net">
+            <div>
+                <label for="email">Email *</label>
+            </div>
+            <input type="email" id="email" placeholder="e.g. johndoe@sky.net">
 
-        <p>
-            <label for="mobile">Phone *</label>
-        </p>
-        <input type="tel" id="mobile" placeholder="e.g. +32 489 44 33 22">
+            <div>
+                <label for="mobile">Phone *</label>
+            </div>
+            <input type="tel" id="mobile" placeholder="e.g. +32 489 44 33 22">
 
-        <div>
-            <p>
+            <div>
                 <label for="desc">Message *</label>
-            </p>
-            <textarea id="desc" cols="40" rows="5" required></textarea>
-        </div>
+                <textarea id="desc" cols="40" rows="10" required></textarea>
+            </div>
+            <div>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193747.0318826709!2d-74.10964618658795!3d40.64537482062224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20New%20York%2C%20Verenigde%20Staten!5e0!3m2!1snl!2sbe!4v1760521797972!5m2!1snl!2sbe" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <dl>
+            <dt><span class="material-symbols-outlined">location_on</span><em><strong>Address:</strong></em></dt>
+            <dd><em>1224 Park PI, Brooklyn, NY 11213</em></dd>
+            <dt><span class="material-symbols-outlined">call</span><em><strong>Phone:</strong></em></dt>
+            <dd><em>+1 800 559 6580</em></dd>
+            <dt><span class="material-symbols-outlined">mail</span><em><strong>E-mail:</strong></em></dt>
+            <dd><em><a href="">mail@demolink.org</a></em></dd>
+        </dl>
+
     </main>
     <footer>
         <p>OTS © 2045 | Privacy Policy | Design by <a href="http://www.templatemonster.com/">FreeTemplates.com</a></p>
