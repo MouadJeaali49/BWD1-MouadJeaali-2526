@@ -1,0 +1,172 @@
+html, body {
+   font-family: "Roboto", sans-serif;
+   font-size: 13px;
+   line-height: 1.8;
+   background: #dfdfdf;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   width: 1000px;
+   margin: 40px auto;
+   background: white;
+   border-radius: 30px 30px 0 0;
+}
+/* ===========================================
+   Menu
+   =========================================== */
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 25px;
+justify-content: flex-end;
+}
+
+nav a {
+   display: block;
+   padding: 10px 8px;
+   text-decoration: none;
+   color: #333;
+   transition: 0.3s;
+}
+
+nav a:hover {
+   color: white;
+   background-color: #B52025;
+}
+
+nav a.active {
+   color: white;
+   background-color: #B52025;
+   border-bottom: 3px solid #B52025;
+}
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+/* ... */
+#banner {
+   background: url(../img/banner.jpg) center/cover no-repeat;
+   border: 5px solid #B52025;
+   margin-top: 20px;
+   margin-top: 20px;
+   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+#banner p {
+   background: rgba(39, 38, 38, 0.8);
+   padding: 20px;
+   color: white;
+}
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+h3 {
+   color: #B52025;
+   font-weight: 500;
+   margin-top: 0;
+   margin-bottom: 8px;
+   text-transform: uppercase;
+}
+
+h3::after {
+   content: " →";
+}
+
+#content p {
+   text-align: justify;
+}
+
+#conent a {
+   text-decoration: none;
+}
+
+#content a:hover {
+   text-decoration: underline;
+}
+
+.minibanner {
+   float: left;
+   margin: 0 12px 12px 0;
+   border: 1px solid #dfdfdf;
+}
+
+.more a {
+   display: inline-block;
+   padding: 10px 18px;
+   background: white;
+   color: #B52025;
+   text-decoration: none;
+   border: 2px solid #B52025;
+   border-radius: 10px;
+   font-family: 700;
+   font-size: 15px;
+   transition: 0.3s;
+}
+
+.more a::after {
+   content: " »" ;
+}
+.more a:hover {
+   background: rgb(210, 153, 153);
+}
+
+aside {
+   width: 280px;
+   float: right;
+}
+
+.projects img {
+   width: 100%;
+   margin-bottom: 10px;
+   display: block;
+}
+
+.newsletter input[type=text] {
+   width: 100%;
+   background: #fdeaeb;
+   border: 1px solid #ccc;
+   padding: 6px;
+   border-radius: 4px;
+}
+
+.newsletter label {
+   display: none;
+}
+
+.newsletter button {
+   display: inline-block;
+   margin-top: 6px;
+   background: #B52025;
+   color: white;
+   border: none;
+   padding: 6px 20px;
+   width: auto;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.newsletter button:hover {
+   background: black;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+footer {
+   background: linear-gradient(#eee,#ccc);
+   text-align: center;
+   border-top:8px dotted #ccc;
+   padding: 20px 0;
+}
