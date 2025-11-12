@@ -1,0 +1,351 @@
+/*
+ * Main styles
+ *
+ * @author Rogier van der Linde <rogier@bitmatters.be>
+ */
+
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+body {
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.6em;
+}
+
+.wrapper {
+   margin: 0 auto;
+   max-width: 1200px;
+   padding: 0 20px;
+}
+
+.btn {
+   color: #fff;
+   font-size: 12px;
+   white-space: nowrap;
+}
+
+.btn-largeround {
+   font-size: 14px;
+   padding: 11px 19px;
+}
+
+hr {
+   border-top-color: #e6e6e6;
+   border-width: 1px 0 0 0;
+   margin: 50px 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+.section_title {
+   font-size: 28px;
+   margin-bottom: 30px;
+}
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header .wrapper {
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 20px;
+}
+
+.logo {
+   color: #353535;
+   display: block;
+   line-height: 21px;
+   margin-bottom: 20px;
+   text-decoration: none;
+}
+
+.logo img {
+   margin-bottom: 10px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+}
+
+nav li + li {
+   margin-left: 30px;
+}
+
+nav a {
+   color: #111;
+   font-size: 13px;
+}
+
+/* ==========================================================================
+   Banner
+   ========================================================================== */
+
+#banner {
+   align-items: flex-end;
+   background-color: #A49488;
+   display: flex;
+   min-height: calc(600vw / 19);
+}
+
+#banner .box {
+   background-color: black;
+   color: white;
+   margin-bottom: 20px;
+   margin-left: 80px;
+   padding: 20px;
+   width: 350px;
+}
+
+#banner .box h2 {
+   font-size: 26px;
+   margin-bottom: 22px;
+}
+
+#banner .box p {
+   margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Request quote
+   ========================================================================== */
+
+#request-quote {
+   background: #f9f9f9;
+   padding: 50px 0;
+}
+
+.tagline {
+   font-size: 34px;
+   line-height: 1.6em;
+}
+
+.tagline strong {
+   color: #F03C02;
+   font-weight: 700;
+}
+
+#request-quote .wrapper {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+main {
+   padding: 50px 0;
+}
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.services {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+
+.service {
+   width: calc((100% - 3 * 30px) / 4);
+}
+
+.service h3 {
+   color: #353535;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+
+.service p {
+   margin-bottom: 10px;
+}
+
+.service a {
+   color: #F03C02;
+   text-decoration: none;
+}
+
+.service a:hover {
+   text-decoration: underline;
+}
+
+.service .fas::before {
+   background-color: #F03C02;
+   border-radius: 40px;
+   color: white;
+   display: block;
+   height: 40px;
+   font-size: 30px;
+   line-height: 40px;
+   margin-bottom: 20px;
+   padding: 12px;
+   width: 40px;
+}
+
+/* ==========================================================================
+   Recent works
+   ========================================================================== */
+
+.works {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+}
+
+.work {
+   margin-bottom: 20px;
+   margin-right: 3%;
+   width: 22%;
+}
+
+/* ==========================================================================
+   Partners
+   ========================================================================== */
+
+.partners ul {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   list-style: none;
+}
+
+.partners li {
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 150px;
+}
+
+.partners a,
+.partners img {
+   display: block;
+   overflow: hidden;
+}
+
+/* ==========================================================================
+   Doormat
+   ========================================================================== */
+
+.doormat {
+   background-color: black;
+   color: #919191;
+   padding: 50px 0;
+}
+
+.doormat .wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.doormat .wrapper section {
+   margin-bottom: 40px;
+   margin-right: 3%;
+   width: 22%;
+}
+
+.doormat h3 {
+   color: #eee;
+   font-size: 24px;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+
+.doormat ul {
+   list-style: none;
+}
+
+.doormat a {
+   color: #919191;
+   text-decoration: none;
+}
+
+.doormat .thumbnails {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.doormat .thumbnails li {
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 50px;
+}
+
+address {
+   font-style: normal;
+}
+
+address p {
+   margin-bottom: 10px;
+}
+
+.doormat .fas {
+   margin-right: 10px;
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+   background-color: black;
+   color: #919191;
+   padding-bottom: 30px;
+}
+
+footer .wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+footer .social {
+   display: flex;
+   list-style: none;
+}
+
+footer .social li {
+   margin-left: 10px;
+}
+
+footer .social a {
+   background-color: #444;
+   box-sizing: content-box;
+   color: white;
+   display: block;
+   height: 20px;
+   line-height: 20px;
+   padding: 5px;
+   text-align: center;
+   width: 20px;
+}
+
+#top {
+   background-color: #F03C02;
+   bottom: 0px;
+   color: white;
+   display: block;
+   height: 32px;
+   line-height: 32px;
+   position: fixed;
+   right: 20px;
+   text-align: center;
+   text-decoration: none;
+   transition: padding 0.3s;
+   width: 32px;
+}
+
+#top:hover {
+   padding-bottom: 50px;
+}
+
